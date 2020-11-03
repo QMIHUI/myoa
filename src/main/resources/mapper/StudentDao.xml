@@ -11,7 +11,10 @@
   <sql id="Base_Column_List">
     id, `name`, age, phone, gid
   </sql>
-  <select id="getAll" resultType="com.bean.Student">
+    <insert id="addUser">
+
+    </insert>
+    <select id="getAll" resultType="com.bean.Student">
     select * from student
   </select>
 
